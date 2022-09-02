@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+/* TODO: fix slidein animation so the icons align properly and fit screen (possible stack for mobile) */
 #icon {
   animation-duration: 3s;
   animation-name: slidein;
