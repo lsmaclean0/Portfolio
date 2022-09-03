@@ -10,21 +10,20 @@ import Image from 'react-bootstrap/Image';
 export default function Home() {
 
   return(      
-      <Container fluid>
+      <Container fluid className='App'>
         <Row>
           <Col>
-            <Image fluid id="icon" class="col align-self-start" src={man}></Image>
-            {/* <img id="icon" className="col align-self-start" src={man}></img> */}
+            <Image fluid id="icon" className="col align-self-start" src={man}></Image>
             {/* TODO: add links for additional pages  */}
-            <h1 id="icon" class="col align-self-start" >About</h1>
+            <h1 id="icon-title" className="col align-self-start" >About</h1>
           </Col>
           <Col>
             <Image fluid id="icon" class="col align-self-start" src={cv}></Image>
-            <h1 id="icon" class="col align-self-start">Resume</h1>
+            <h1 id="icon" className="col align-self-start">Resume</h1>
           </Col>
           <Col>
             <Image fluid id="icon" className="col align-self-start" src={projects}></Image>
-            <h1 id="icon" class="col align-self-start">Projects</h1>
+            <h1 id="icon" className="col align-self-start">Projects</h1>
           </Col>
         </Row>
       </Container>

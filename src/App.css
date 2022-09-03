@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 #icon {
   animation-duration: 3s;
@@ -9,8 +9,14 @@
   text-align: center;
 }
 
-.App-header {
-  box-shadow: 0px 0 10px rgba(0, 0, 0, 10);
+#icon-title {
+  animation-duration: 3s;
+  animation-name: slidein;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
+  text-align: center;
+}
+
+.App {
   background: rgb(34,168,195);
   background: linear-gradient(305deg, rgba(34,168,195,1) 0%, rgba(232,188,49,1) 98%);
   min-height: 100vh;
