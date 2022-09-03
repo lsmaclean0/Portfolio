@@ -2,16 +2,17 @@
   text-align: center;
 }
 
-/* TODO: fix slidein animation so the icons align properly and fit screen (possible stack for mobile) */
 #icon {
   animation-duration: 3s;
   animation-name: slidein;
-  overflow: hidden;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
+  text-align: center;
 }
 
 .App-header {
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 10);
   background: rgb(34,168,195);
-background: linear-gradient(305deg, rgba(34,168,195,1) 0%, rgba(232,188,49,1) 98%);
+  background: linear-gradient(305deg, rgba(34,168,195,1) 0%, rgba(232,188,49,1) 98%);
   min-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -19,11 +20,8 @@ background: linear-gradient(305deg, rgba(34,168,195,1) 0%, rgba(232,188,49,1) 98
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
 }
-
-/* .App-link {
-  color: #61dafb;
-} */
 
 @keyframes slidein {
   from {
