@@ -1,32 +1,22 @@
 /* .App {
   text-align: center;
 } */
-
-#icon {
-  animation-duration: 3s;
-  animation-name: slidein;
+#navbar{
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
-  text-align: center;
 }
 
-#icon-title {
+#lead {
   animation-duration: 3s;
   animation-name: slidein;
+  /* text-align: center; */
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
-  text-align: center;
 }
 
-.App {
-  background: rgb(34,168,195);
-  background: linear-gradient(305deg, rgba(34,168,195,1) 0%, rgba(232,188,49,1) 98%);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  overflow: hidden;
+#lead-bottom {
+  animation-duration: 4s;
+  animation-name: slidein;
+  /* text-align: center; */
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
 }
 
 @keyframes slidein {
@@ -40,3 +30,29 @@
     width: 100%;
   }
 }
+
+#lead-button {
+  /* animation-delay: 8s; */
+  /* animation: fadeIn 5s;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7)); */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  50% { opacity: 0.5;}
+  100% { opacity: 1; }
+}
+
+.App {
+  background: rgb(78,32,77);
+  background: linear-gradient(305deg, rgba(78,32,77,1) 0%, rgba(151,13,26,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  overflow: hidden;
+}
+
+
