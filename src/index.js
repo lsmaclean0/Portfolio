@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./routes/About";
+import Contact from "./routes/Contact";
 import Navbar from './components/NavBar';
 import Resume from './routes/Resume'
 import Skills from './routes/Skills'
@@ -16,9 +16,9 @@ root.render(
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="about" element={<About />} />
-        <Route path="resume" element={<Resume />} />
         <Route path="skills" element={<Skills />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </React.StrictMode>
   </Router>

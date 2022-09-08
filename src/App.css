@@ -1,47 +1,6 @@
 /* .App {
   text-align: center;
 } */
-#navbar{
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
-}
-
-#lead {
-  animation-duration: 3s;
-  animation-name: slidein;
-  /* text-align: center; */
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
-}
-
-#lead-bottom {
-  animation-duration: 4s;
-  animation-name: slidein;
-  /* text-align: center; */
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-#lead-button {
-  /* animation-delay: 8s; */
-  /* animation: fadeIn 5s;
-  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7)); */
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  50% { opacity: 0.5;}
-  100% { opacity: 1; }
-}
 
 .App {
   background: rgb(78,32,77);
@@ -53,6 +12,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
   overflow: hidden;
+
 }
+
+#navbar{
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
+}
+
+h1.about{
+  font-size: 5vw;
+}
+
+h2.about{
+  font-size: 2vw;
+}
+
+.intro {
+  font-size: 1vw;
+  /* color: #e5dcc5; */
+}
+
+.avatar {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
+}
+
 
 
