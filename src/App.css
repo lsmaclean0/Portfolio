@@ -19,11 +19,12 @@
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.7));
 }
 
+
 h1.about{
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
-h2.about{
+h3.about{
   font-size: 2vw;
 }
 

@@ -12,8 +12,10 @@ const resume = [
     company: "ByteLion",
     position: "Software Engineer I",
     dates: "Jun. 2021 - Oct. 2021",
-    responsibilities: "Participated in the design and implementation of a large scale application using Java and the Spring Boot framework for a large grocery store and distribution center. Designed a REST API enabling product location data to be queried and distributed to the appropriate microservices.Implemented microservices utilizing Spring Boot to read and parse data from online orders and map the most efficient route for an employee to navigate a store or warehouse."
-  }
+    responsibilities: 
+      "Participated in the design and implementation of a large scale application using Java and the Spring Boot framework for a large grocery store and distribution center. Designed a REST API enabling product location data to be queried and distributed to the appropriate microservices. Implemented microservices utilizing Spring Boot to read and parse data from online orders and map the most efficient route for an employee to navigate a store or warehouse. ",
+   
+  },
 ];
 
 export default function Skills() {
@@ -26,7 +28,7 @@ export default function Skills() {
             <h1>{job.company}</h1>
             <h2>{job.position}</h2>
             <h3>{job.dates}</h3>
-            <h5>{job.responsibilities}</h5>       
+            <h5>{job.responsibilities}</h5>
           </div>
         ))}
       </Container>
