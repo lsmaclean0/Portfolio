@@ -17,18 +17,20 @@ function App() {
           <h3 className="about">Full Stack Software Engineer</h3>
         </Fade>
         <Fade delay={2500} right cascade>
-          <Row >
-          <Col xs lg="1">
+          <Row>
+            <Col xs lg="1">
               <SocialIcon
-                style={{height: 50, width: 50 }}
+                className="social"
+                style={{ height: 50, width: 50 }}
                 network="facebook"
-                bgColor="#4e204d"
+                bgColor="#5D255C"
                 fgColor="#ffff"
                 url="https://www.facebook.com/lukemac15"
               />
             </Col>
             <Col xs lg="1">
               <SocialIcon
+                className="social"
                 network="linkedin"
                 bgColor="#107e7d"
                 fgColor="#ffff"
@@ -37,7 +39,8 @@ function App() {
             </Col>
             <Col xs lg="">
               <SocialIcon
-                bgColor="#1b9aaa"
+                className="social"
+                bgColor="#dddbcb"
                 url="https://github.com/lsmaclean0"
               />
             </Col>
